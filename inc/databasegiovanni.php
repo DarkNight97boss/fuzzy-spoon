@@ -4,8 +4,8 @@
 
 $dbhost = "localhost"; //Database Host
 $dbuser = "root"; //Database User
-$dbpass = "HubixManagement"; //Database Password
-$dbname = "hubixtk"; //Database Name
+$dbpass = "xxx"; //Database Password
+$dbname = "xxx"; //Database Name
 
 
 

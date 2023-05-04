@@ -16,10 +16,10 @@ class Database{
  
     private $username = "root";
 	private $port = 3306;
-    private $password = "HubixManagement";
+    private $password = "xxxx";
 
     private $hostname = "localhost";
-    private $database = "hubixtk";
+    private $database = "xxxx";
     private $dbConnection = null;
     
     /* @class utils */

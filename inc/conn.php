@@ -5,10 +5,10 @@
 || # Copyright (C) 2014 lD@vidl.                                       *#
 ||---------------------------------------------------------------------*#
 ||---------------------------------------------------------------------*#
-|| Script pensado para la gestión de retroservers Habbo.               *#
-|| Tanto el script como los autores del mismo no tienen ningún tipo    *#
-|| de asociación con Habbo y/o Sulake Oy Corp. Por lo tanto, estos no  *#
-|| se hacen responsables del uso que el usuario le dé.                 *#
+|| Script pensado para la gestiï¿½n de retroservers Habbo.               *#
+|| Tanto el script como los autores del mismo no tienen ningï¿½n tipo    *#
+|| de asociaciï¿½n con Habbo y/o Sulake Oy Corp. Por lo tanto, estos no  *#
+|| se hacen responsables del uso que el usuario le dï¿½.                 *#
 ||                                                                     ||
 \ ################################################################### */
 
@@ -19,8 +19,8 @@
 		var $host     = '127.0.0.1';
 		var $port     = '3306';
 		var $username = 'root';
-		var $password = 'HubixManagement';
-		var $database = 'hubixtk';
+		var $password = 'xxx';
+		var $database = 'xxx';
 	
 		final function __construct(){
 			try{
