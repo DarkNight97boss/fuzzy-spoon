@@ -1,0 +1,20 @@
+body{background-image:url('../images/general_bg.png');font-family:'Ubuntu';width:800px;margin:0 auto;padding-bottom:10px;}
+::selection {color:black;background:white;}
+::-moz-selection {color:black;background:white;}
+input{font-family: 'Ubuntu'!important;}
+a{color: rgb(255, 179, 65);}
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px white inset;}
+#footer, #static{background: rgb(243, 243, 243);background-image: url(../images/bg-top.png);border-radius: 2px;width: 793px;margin-top: 10px;border-top: 3px solid rgb(175, 175, 175);border-bottom: 3px solid rgb(175, 175, 175);border-right: 3px solid rgb(175, 175, 175);margin-left: 4px;}
+#footer{font-size:13px;color: #696969;text-shadow: 1px 1px white;}
+#static #static-box, #footer .footer-about{padding:10px;font-size:13px;color: #696969;text-shadow: 1px 1px white;}
+#error{background: rgb(155, 0, 0);color: white;padding: 10px;}
+#hotel{width: 476px;float:right;height: 300px; margin-top: -188px; background: url('../images/hotel_color.png');background-position: 28px 6px;}
+.pink{box-shadow: -4px 0px #4A9CE9;}
+.cyan{box-shadow: -4px 0px #4A9CE9;}
+.gray{border-left: 3px solid rgb(77, 77, 77);}
+.orange{box-shadow: -4px 0px rgb(221, 141, 0);}
+.red{box-shadow: -4px 0px rgb(221, 0, 0);}
+#static-box .title{font-size: 19px;color: #563d7c;}
+#static-box .register-input{background: #fff;color: #555;margin-top: 3px;border: 1px solid rgb(126, 126, 126);border-radius: 2px;font-size: 16px;width: 238px;padding: 9px;}
+#static-box .register-submit{cursor: pointer;font-size: 18px;background: #0099de;border: 1px solid #0087C4;padding: 10px 9px;color: white;text-transform: uppercase;border-radius: 2px;margin: 3px 0px;width: 258px;text-align: left;padding-left: 20px;}
+#static-box .register-submit:hover{background: #048AC7;border: 1px solid #0087C4;}

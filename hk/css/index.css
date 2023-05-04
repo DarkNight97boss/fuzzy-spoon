@@ -1,0 +1,36 @@
+body{font-family: 'Raleway';margin:0;background-image:url('../images/general_bg.png');font-size:100%;}
+a{color: rgb(230, 230, 230);}
+button{font-family: 'Raleway' !important;}
+input{font-family: 'Raleway' !important;}
+::selection{color:black;background:white;}::-moz-selection{color:black;background:white;}
+header{background-color:#0099de;background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;min-width: 896px;border: 2px solid #79C0EC;box-shadow: 2px -2px #6DA3C4,2px 2px #6DA3C4,-2px -2px #6DA3C4,-2px 2px #6DA3C4;}
+header #navi{margin: 0 auto;max-width:900px;}
+header #logo{font-family: 'Pacifico';color: white;font-size: 30px;text-shadow: 1px 1px rgba(0, 0, 0, 0.39);float:left;}
+header .index{width:100%;display: table;}
+header #login-camp input[type="text"],header #login-camp input[type="password"]{margin:0;outline-color: white;padding: 10px;float: left;margin-left: 10px;font-size: 15px;padding-left: 24px;border: 1px solid rgb(126, 126, 126);color: gray;box-shadow: 0px 0px 1px rgb(155, 155, 155);margin-top:1px;}
+header #login-camp .username{background-image: url('../images/ico_user.png');background-repeat: no-repeat;background-position: 7px 12px;}
+header #login-camp .password{background-image: url('../images/ico_password.png');background-repeat: no-repeat;background-position: 7px 11px;}
+header #login-camp input[type="submit"]{cursor: pointer;margin: 0;padding: 10px;text-shadow: 1px 1px rgb(189, 189, 189);float: left;margin-left: 10px;margin-top: 1px;font-size: 15px;color: white;text-transform: uppercase;background-color: #27ae60;border: 1px solid #5cc187;box-shadow: 1px 1px #459065,-1px 1px #459065,1px -1px #459065,-1px -1px #459065;background-image: url(../images/bg-top.png);background-repeat: repeat-x;background-position: 0 100%;}
+#login-camp{display: table;margin-top: 5px;float: right;}
+header #login-camp input[type="submit"]:hover{background-color: #229954;}
+#error{background: rgb(170, 0, 0);color: white;padding: 10px;text-align: center;text-shadow: 1px 1px rgb(158, 158, 158);}
+#good{background: rgb(81, 134, 0);color: white;padding: 10px;text-align: center;text-shadow: 1px 1px rgb(158, 158, 158);}
+#body{min-width:900px;margin:0 auto;background-image:url('../images/bg.png');min-height:262px;margin-top: 3px;border-top: 4px solid white;border-bottom: 5px solid white;box-shadow: 0px 1px rgb(175, 175, 175), 0px -1px rgb(175, 175, 175);}
+#body #generic{width:900px;margin: 0 auto;}
+#body #column{width:100%;display:table;}
+#body .column-1{float:right;}
+#body .column-2{float:right;margin-top:40px;}
+#body .register{width:300px;font-size: 22px;text-decoration:none!important;cursor:pointer;background: #0099de;color: white;padding: 18px 15px;text-transform: uppercase;font-weight: bold;border: 1px solid #0087C4;}
+#body .register:hover{background: #0084C0;}
+#body .facebook{width:300px;font-size:13px;text-decoration:none!important;margin-top:5px;cursor:pointer;background-image: url('../images/facebook.png');background-repeat: no-repeat;background-color: #2754a3;color: white;padding: 17px 20px 17px 35px;text-transform: uppercase;font-weight: bold;border: 1px solid #254F97;background-position: 15px 18px;}
+#body .facebook:hover{background-color: #234B91;}
+#body #forgot{font-size: 13px;color: white;text-shadow: 1px 1px rgb(88, 88, 88);}
+#box-2{background-color: rgb(243, 243, 243);min-width:900px;margin:0 auto;margin-top: 1px;border-top: 4px solid white;border-bottom: 5px solid white;box-shadow: 0px 1px rgb(175, 175, 175);background-image: url(../images/bg-top.png);background-repeat: repeat-x;background-position: 0 100%;}
+#box-2 #generic{width:900px;margin: 0 auto;}
+#box-2 #column{width:100%;display:table}
+#box-2 #title{padding-top: 4px;padding-bottom: 4px;text-transform:uppercase;font-size: 12px;font-weight: bold;color: #686868;border-bottom: 3px solid #4A9CE9;}
+#box-2 #title p{margin:0;margin: 0px;font-size: 16px;font-weight: bold;color: #563d7c;}
+#box-2 .avatar{float: left;margin-right: 5px;width: 35px;height: 35px;background-position: -15px -23px;}
+#box-2 h2{text-transform: uppercase;color: rgb(102, 102, 102);font-size: 18px;font-weight: bold;}
+#box-2 #box-contain{float: left;width: 300px;font-size: 14px;color: rgb(83, 83, 83);}
+#footer{padding-top: 10px;padding-bottom: 10px;font-size: 14px;color: rgb(255, 255, 255);text-shadow: 1px 1px rgb(92, 92, 92)}

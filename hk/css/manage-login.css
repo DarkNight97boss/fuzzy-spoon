@@ -1,0 +1,11 @@
+/* CODED BY lD@vidl */
+@font-face {font-family: "Flat-UI-Icons";src: url('../fonts/flat-ui-icons-regular.eot');src: url('../fonts/flat-ui-icons-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/flat-ui-icons-regular.woff') format('woff'), url('../fonts/flat-ui-icons-regular.ttf') format('truetype'), url('../fonts/flat-ui-icons-regular.svg#flat-ui-icons-regular') format('svg');font-weight: normal; font-style: normal;}
+#body #content{width:978px;display:table;background-image:url('../images/bg-top.png');background-color: rgb(255, 255, 255);padding: 10px;border-radius: 5px;margin-top: 40px;border: 1px solid rgb(148, 148, 148);}
+#logo{text-align: center;width: 100%;float: left;}
+#login-box{display: table;margin: 0 auto;font-size:13px;}
+input{border: 2px solid #bdc3c7;color: #34495e;font-size: 15px;line-height: 1.467;padding: 8px 12px;height: 42px;-webkit-appearance: none;border-radius: 6px;box-shadow: none;width: 298px;margin-top: 10px;}
+input[type="submit"]{font-weight: bold;cursor:pointer;background: rgb(90, 132, 238);color: white;;border: 2px solid rgb(90, 132, 238);height: 62px;float: right;-webkit-font-smoothing: subpixel-antialiased;-webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;transition: border .25s linear, color .25s linear, background-color .25s linear;}
+input[type="submit"]:hover{background: rgb(255, 255, 255);color: rgb(102, 102, 102);border: 9px solid rgb(90, 132, 238);}
+.login-field-icon {color: #bfc9ca;font-size: 19px;position: absolute;float: left;-webkit-transition: 0.25s;transition: 0.25s;margin-left: -31px;margin-top: 30px;}
+.fui-lock:before {content: "\e01f";font-family: 'Flat-UI-Icons';}
+/* CODED BY lD@vidl */

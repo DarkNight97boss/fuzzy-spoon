@@ -1,0 +1,310 @@
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #ee6e73; }
+  footer.page-footer .footer-copyright {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(51, 51, 51, 0.08); }
+
+.light, footer.page-footer .footer-copyright {
+  font-weight: 300; }
+
+.picker__footer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+ .container1 {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%; }
+
+@media only screen and (min-width : 601px) {
+  .container1 {
+    width: 85%; } }
+
+@media only screen and (min-width : 993px) {
+  .container1 {
+    width: 70%; } }
+
+.container1 .row1 {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem; }
+
+  .row1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; }
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row1 .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0.75rem; }
+    .row1 .col.s1 {
+      width: 8.33333%;
+      margin-left: 0; }
+    .row1 .col.s2 {
+      width: 16.66667%;
+      margin-left: 0; }
+    .row1 .col.s3 {
+      width: 25%;
+      margin-left: 0; }
+    .row1 .col.s4 {
+      width: 33.33333%;
+      margin-left: 0; }
+    .row1 .col.s5 {
+      width: 41.66667%;
+      margin-left: 0; }
+    .row1 .col.s6 {
+      width: 50%;
+      margin-left: 0; }
+    .row1 .col.s7 {
+      width: 58.33333%;
+      margin-left: 0; }
+    .row1 .col.s8 {
+      width: 66.66667%;
+      margin-left: 0; }
+    .row1 .col.s9 {
+      width: 75%;
+      margin-left: 0; }
+    .row1 .col.s10 {
+      width: 83.33333%;
+      margin-left: 0; }
+    .row1 .col.s11 {
+      width: 91.66667%;
+      margin-left: 0; }
+    .row1 .col.s12 {
+      width: 100%;
+      margin-left: 0; }
+    .row1 .col.offset-s1 {
+      margin-left: 8.33333%; }
+    .row1 .col.offset-s2 {
+      margin-left: 16.66667%; }
+    .row1 .col.offset-s3 {
+      margin-left: 25%; }
+    .row1 .col.offset-s4 {
+      margin-left: 33.33333%; }
+    .row1 .col.offset-s5 {
+      margin-left: 41.66667%; }
+    .row1 .col.offset-s6 {
+      margin-left: 50%; }
+    .row1 .col.offset-s7 {
+      margin-left: 58.33333%; }
+    .row1 .col.offset-s8 {
+      margin-left: 66.66667%; }
+    .row1 .col.offset-s9 {
+      margin-left: 75%; }
+    .row1 .col.offset-s10 {
+      margin-left: 83.33333%; }
+    .row1 .col.offset-s11 {
+      margin-left: 91.66667%; }
+    .row1 .col.offset-s12 {
+      margin-left: 100%; }
+    @media only screen and (min-width : 601px) {
+      .row1 .col.m1 {
+        width: 8.33333%;
+        margin-left: 0; }
+      .row1 .col.m2 {
+        width: 16.66667%;
+        margin-left: 0; }
+      .row1 .col.m3 {
+        width: 25%;
+        margin-left: 0; }
+      .row1 .col.m4 {
+        width: 33.33333%;
+        margin-left: 0; }
+      .row1 .col.m5 {
+        width: 41.66667%;
+        margin-left: 0; }
+      .row1 .col.m6 {
+        width: 50%;
+        margin-left: 0; }
+      .row1 .col.m7 {
+        width: 58.33333%;
+        margin-left: 0; }
+      .row1 .col.m8 {
+        width: 66.66667%;
+        margin-left: 0; }
+      .row1 .col.m9 {
+        width: 75%;
+        margin-left: 0; }
+      .row1 .col.m10 {
+        width: 83.33333%;
+        margin-left: 0; }
+      .row1 .col.m11 {
+        width: 91.66667%;
+        margin-left: 0; }
+      .row1 .col.m12 {
+        width: 100%;
+        margin-left: 0; }
+      .row1 .col.offset-m1 {
+        margin-left: 8.33333%; }
+      .row1 .col.offset-m2 {
+        margin-left: 16.66667%; }
+      .row1 .col.offset-m3 {
+        margin-left: 25%; }
+      .row1 .col.offset-m4 {
+        margin-left: 33.33333%; }
+      .row1 .col.offset-m5 {
+        margin-left: 41.66667%; }
+      .row1 .col.offset-m6 {
+        margin-left: 50%; }
+      .row1 .col.offset-m7 {
+        margin-left: 58.33333%; }
+      .row1 .col.offset-m8 {
+        margin-left: 66.66667%; }
+      .row1 .col.offset-m9 {
+        margin-left: 75%; }
+      .row1 .col.offset-m10 {
+        margin-left: 83.33333%; }
+      .row1 .col.offset-m11 {
+        margin-left: 91.66667%; }
+      .row1 .col.offset-m12 {
+        margin-left: 100%; } }
+    @media only screen and (min-width : 993px) {
+      .row1 .col.l1 {
+        width: 8.33333%;
+        margin-left: 0; }
+      .row1 .col.l2 {
+        width: 16.66667%;
+        margin-left: 0; }
+      .row1 .col.l3 {
+        width: 25%;
+        margin-left: 0; }
+      .row1 .col.l4 {
+        width: 33.33333%;
+        margin-left: 0; }
+      .row1 .col.l5 {
+        width: 41.66667%;
+        margin-left: 0; }
+      .row1 .col.l6 {
+        width: 50%;
+        margin-left: 0; }
+      .row1 .col.l7 {
+        width: 58.33333%;
+        margin-left: 0; }
+      .row1 .col.l8 {
+        width: 66.66667%;
+        margin-left: 0; }
+      .row1 .col.l9 {
+        width: 75%;
+        margin-left: 0; }
+      .row1 .col.l10 {
+        width: 83.33333%;
+        margin-left: 0; }
+      .row1 .col.l11 {
+        width: 91.66667%;
+        margin-left: 0; }
+      .row1 .col.l12 {
+        width: 100%;
+        margin-left: 0; }
+      .row1 .col.offset-l1 {
+        margin-left: 8.33333%; }
+      .row1 .col.offset-l2 {
+        margin-left: 16.66667%; }
+      .row1 .col.offset-l3 {
+        margin-left: 25%; }
+      .row1 .col.offset-l4 {
+        margin-left: 33.33333%; }
+      .row1 .col.offset-l5 {
+        margin-left: 41.66667%; }
+      .row1 .col.offset-l6 {
+        margin-left: 50%; }
+      .row1 .col.offset-l7 {
+        margin-left: 58.33333%; }
+      .row1 .col.offset-l8 {
+        margin-left: 66.66667%; }
+      .row1 .col.offset-l9 {
+        margin-left: 75%; }
+      .row1 .col.offset-l10 {
+        margin-left: 83.33333%; }
+      .row1 .col.offset-l11 {
+        margin-left: 91.66667%; }
+      .row1 .col.offset-l12 {
+        margin-left: 100%; } }
+
+.black {
+  background-color: #000000 !important; }
+
+.black-text {
+  color: #000000 !important; }
+ 
+.black-textgio {
+  color: #000000 !important; 
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  }
+  
+.white-textgio {
+  color: #fff !important; 
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  }
+  
+  
+.white {
+  background-color: #1E88E5 !important; }
+
+.hubixback {
+  background-color: #1E88E5 !important; }
+  
+.white-text {
+  color: #FFFFFF !important; }
+  
+  .right {
+  float: right !important; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Thin.woff2") format("woff2"), url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Thin.woff") format("woff"), url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Light.woff2") format("woff2"), url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Light.woff") format("woff"), url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Regular.woff2") format("woff2"), url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Regular.woff") format("woff"), url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Medium.woff2") format("woff2"), url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Medium.woff") format("woff"), url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Bold.woff2") format("woff2"), url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Bold.woff") format("woff"), url("http://hubixhotel.tk/registrazione/materialize/font/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700; }
+  
+ h5 {
+  font-size: 1.64rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 110%;
+  margin: 0.82rem 0 0.656rem 0;
+	font-weight: 300;  }
+  
+a {
+  text-decoration: none; 
+  color: #fff;
+  }
+  
+#box
+{
+  background-color: #1E88E5;
+  border-top: 4px solid #1E88E5;
+}
+

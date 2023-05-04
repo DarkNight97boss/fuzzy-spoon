@@ -1,0 +1,34 @@
+ErrorDocument 404 /error.php
+Options +FollowSymlinks
+Options -Indexes
+<Files .htaccess>
+deny from all
+</Files>
+<Files ~ "\.log$">
+Order allow,deny
+Deny from all
+</Files>
+<ifModule mod_rewrite.c>
+RewriteEngine on
+# Uncomment the line below if the site doesn't work and you have mod_rewrite installed.
+# RewriteBase /
+
+RewriteRule ^logout([^/]+) account/logout.php
+
+RewriteRule ^news/(.*)-(.*)$ news.php?id=$1&idpage=$2
+
+RewriteRule ^proceedWithPayment/StarPass/(.*)/(.*)$ proceedWithPayment/StarPass.php?check=$1&checkcode=Valide
+RewriteRule ^proceedWithPayment/VIP/([^/]+) proceedWithPayment/VIP.php?check=$1
+RewriteRule ^badges/([^/]+) badges.php?id=$1
+
+RewriteRule ^admin/site/boutique([^/]+) admin/boutique.php
+RewriteRule ^admin/site/fansites([^/]+) admin/fansites.php
+RewriteRule ^admin/staffs/([^/]+) admin/staffs.php?id=$1
+RewriteRule ^admin/bans/([^/]+) admin/bans.php?value=$1
+RewriteRule ^admin/delete_new/([^/]+) admin/delete_new.php?id=$1
+RewriteRule ^admin/new/post([^/]+) admin/new.php?post=true
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(([A-Za-z0-9\-_]+/)*[A-Za-z0-9\-_]+)?$ $1.php
+</ifModule>

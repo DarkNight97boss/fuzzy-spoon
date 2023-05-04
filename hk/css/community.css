@@ -1,0 +1,72 @@
+body{font-family:'Ubuntu';background-image: url('../images/general_bg.png');margin: 0;padding-bottom:10px;}
+input{font-family:'Ubuntu';}
+header{min-width:930px;width:auto;border: 2px solid #6DA3C4;}
+::selection {color:black;background:white;}
+::-moz-selection {color:black;background:white;}
+a{color: rgb(116, 116, 116);}
+li{list-style:none}
+.content-box .selected{color: rgb(40, 72, 172);}
+:hover{-moz-transition: all 1s ease-in;-webkit-transition: all 1s ease-in;-o-transition: all 1s ease-in;transition: all 1s ease-in;}
+#header{background-color: #1BAFE0;background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;min-width: 930px;border: 2px solid #79C0EC;box-shadow: 2px -2px #6DA3C4, 2px 2px #6DA3C4, -2px -2px #6DA3C4, -2px 2px #6DA3C4;}
+#header #info{width:930px; margin: 0 auto;}
+#header #info .into{width:100%;display:table;}
+#header #info .pad-box{padding:10px}
+#header #info .info-user{color: rgb(92, 92, 92);padding: 10px;background: white;float: left;margin-top: 12px;border-radius: 3px;font-size: 14px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;max-width: 346px;}
+#header #info .onlines{float: left;background-color: rgba(0, 9, 54, 0.29);color: white;font-weight: bold;border-radius: 3px;margin-top: 11px;margin-left: 11px;padding:9.5px 19px;}
+#header #info .enter-hotel, #header #info .sign-out{background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;cursor:pointer;float: right;color: white;margin-top: 9px;border-radius: 3px;}
+#header #info .enter-hotel{background-color: #27ae60;border: 1px solid #5cc187;box-shadow: 1px 1px #459065,-1px 1px #459065,1px -1px #459065,-1px -1px #459065;}
+#header #info .sign-out{background-color:#d64242;border: 1px solid #df7070;box-shadow: 1px 1px #a75454,-1px 1px #a75454,1px -1px #a75454,-1px -1px #a75454;}
+#header #info .enter-hotel:hover{background-color: #1F9953;}
+#header #info .sign-out:hover{background-color: #BE3C3C;}
+#navi{min-width:930px;margin: 0 auto;width:auto;border: 2px solid #CE7137;font-size: 13px;background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;background-color:#ff6300;text-align: center;}
+#navi #links{width: 930px;margin: 0 auto;display: table;}
+#navi #sub-navi{border: 2px solid #fe893f;}
+#navi #pad-navi{width:100%;}
+#navi .tab{color:white;cursor:pointer;padding:10px;float:left;border-right: 1px solid rgba(0, 0, 0, 0.1);}
+#navi .tab:hover{background: #D15200;}
+#navi .selected{background-color: rgba(0, 0, 0, 0.26);}
+#generic-body{width: 930px;margin: 0 auto;}
+.pad-body{width:100%;display:table;}
+#column-1{float:left;width: 560px;}
+#column-2{float:right;width:360px;}
+#column-1-article{float:right;width: 660px;}
+#column-2-article{float:left;width:260px;}
+#box{box-shadow: 0px 0px 1px rgb(87, 87, 87);border:1px solid #a6a6a6;background-color:white;border-radius: 2px;margin-top: 10px;padding:10px;}
+#user-info{background-image: url('../images/profile.png');width: 100%;height: 157px;background-position: -204px -79px;}
+#habbo-image{width: 144px;float: left;}
+.habbo-plate{background-image: url('../images/info_habbo_plate.png');width:94px;height: 65px;margin-top: -36px;margin-left: 27px;}
+#habbo-information{float: left;width: 283px;margin-top: 22px;}
+#habbo-username{padding: 11px;background: white;border-radius: 3px;font-size: 13px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;max-width: 247px;}
+#habbo-enter-hotel{background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;margin-top: 10px;cursor: pointer;color: white;padding: 14px 30px;border-radius: 4px;font-size: 15px;float: left;background-color: #27ae60;border: 1px solid #5cc187;box-shadow: 1px 1px #459065,-1px 1px #459065,1px -1px #459065,-1px -1px #459065;}
+#habbo-enter-hotel:hover{background-color: #1F9953;}
+#habbo-exit-hotel{background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;cursor: pointer;color: white;padding: 14px 30px;border-radius: 4px;font-size: 15px;margin-top: 10px;float: left;border: 1px solid #a51c1c;background-color: #d64242;margin-left: 10px;}
+#habbo-exit-hotel:hover{background-color: #BE3C3C;}
+#box .title{background-color: #1BAFE0;box-shadow: 1px -1px #6DA3C4, 1px 1px #6DA3C4, -1px -1px #6DA3C4, -1px 1px #6DA3C4;font-size: 14px;background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;color: white;border-radius: 2px;padding: 7px 15px;}
+#box .orange{background-color:#ff6300;border: 1px solid #fe893f;box-shadow: 1px -1px #CE7137, 1px 1px #CE7137, -1px -1px #CE7137, -1px 1px #CE7137;}
+#box .green{background-color: #27ae60;border: 1px solid #5cc187;box-shadow: 1px 1px #459065,-1px 1px #459065,1px -1px #459065,-1px -1px #459065;}
+#box .yellow{background-color: #E4A400;border: 1px solid rgb(248, 191, 69);box-shadow: 1px 1px #AFA800,-1px 1px #AFA800,1px -1px #AFA800,-1px -1px #AFA800;}
+#box .red{background-color:#d64242;border: 1px solid #df7070;box-shadow: 1px 1px #a75454,-1px 1px #a75454,1px -1px #a75454,-1px -1px #a75454;}
+#box .content-box{display: table;width: 100%;padding-top:10px;font-size:13px;color: rgb(112, 112, 112);}
+#footer{width: 926px;border: 2px solid rgb(119, 119, 119);border-radius: 2px;margin: 0 auto;font-size: 12px;margin-top: 10px;background: white;color: white;background-color: #6D6D6D;background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;}
+.footer{padding:10px;border: 2px solid rgb(150, 150, 150);}
+.news-box img{max-width: 100%;}
+#campaign-news{padding: 0;margin: 0;}
+#campaign{list-style: none;display: table;width: 100%;margin-top:10px;}
+#campaign img{float: left;}
+#campaign-about{float:left;width: 371px;margin-left: 7px;}
+#campaign .read{margin: 0;padding: 0;text-align: right;}
+div.showuser{margin-top: 10px;padding: 0 20px;border-bottom: 2px solid rgba(000,000,000,0.2);font-size: 15px;-webkit-text-stroke: .045em;-webkit-font-smoothing: antialiased;}
+div.showuser span.small{margin-top: 8px;margin-bottom: 17px;font-size: 12px;display: inline-block;text-transform: uppercase;-webkit-text-stroke: .0075em;-webkit-font-smoothing: antialiased;}
+div.showuser img{float: left;margin-top: -20px;margin-right: 10px;margin-left: -16px;}
+div.showuser div#motto{background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;font-size: 16px;-webkit-text-stroke: .028em;-webkit-font-smoothing: antialiased;color: rgba(000,000,000,.8);background-color: #DADFE1;display: inline-block;width: calc(100% - 90px);padding: 10px 15px;margin-top: 8px;border-radius: 2px;box-shadow: 0 3px 0 rgba(000,000,000,0.2);text-shadow: none;text-align: left;}
+div.showuser strong{font-weight: normal;}
+div.showuser div#motto::before{top: 0px;left: -12px;content: "";position: relative;margin-top: -16px;border-width: 0 16px 16px;border-style: solid;border-color: #DADFE1 transparent;display: block;width: 0;height: 1px;}
+div.showuser:last-child{border-bottom: none;}
+div.showuser:last-child span.small{margin-bottom: 0 !important;}
+#box .bottom-box, .submit{padding: 9px;border: 2px solid rgb(197, 197, 197);background-color: #686868;background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;color: white;border-radius: 2px;box-shadow: 0px 0px 3px black;}
+#box .input-box{background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;font-family: Ubuntu, sans-serif;background-color: gray;border: 1px solid rgb(100, 100, 100);padding: 10px;color: white;outline: 1px solid white;}
+#error{width: 912px;margin: 0 auto;margin-top: 10px;border-radius: 2px;background-color: #d64242;border: 1px solid #df7070;box-shadow: 1px 1px #a75454,-1px 1px #a75454,1px -1px #a75454,-1px -1px #a75454;color: white;padding: 8px;background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;font-size: 12px;}
+#good{width: 912px;margin: 0 auto;margin-top: 10px;border-radius: 2px;background-color: #27ae60;border: 1px solid #5cc187;box-shadow: 1px 1px #459065,-1px 1px #459065,1px -1px #459065,-1px -1px #459065;color: white;padding: 8px;background-repeat: repeat-x;background-image: url(../images/bg-top.png);background-position: 0 100%;font-size: 12px;}
+.room3{background: url(../images/icon_room_3.png) no-repeat;height: 35px;width: 40px;}
+.room2{background: url(../images/icon_room_2.png) no-repeat;height: 35px;width: 40px;}
+.room1{background: url(../images/icon_room_1.png) no-repeat;height: 35px;width: 40px;}

@@ -1,0 +1,48 @@
+body
+{
+	font-family: 'Roboto-Thin';
+}
+
+#box
+{
+  background-color: #fff;
+  padding: 15px;
+  border-top: 4px solid #1E88E5;
+}
+
+.monedas
+{
+margin-bottom: 5px;
+margin-left: 18px;
+background-color: rgba(0, 0, 0, 0.35);
+border-left: 3px solid #F1C40F;
+color: #fff;
+width: auto;
+padding: 10;
+float: left;
+}
+
+.r_info
+{
+background-color: rgba(0, 0, 0, 0.13);
+padding: 10px;
+float: left;
+margin-left: 15px;
+margin-top: 18px;
+}
+
+.look-r
+{
+background-repeat: no-repeat;
+background-position: 7px -3px;
+width: 81px;
+height: 125px;
+border: 3px double #26A69A;
+padding: -16px;
+}
+
+@font-face
+{
+    font-family: 'Roboto-Thin';
+    src: url('../fuentes/Roboto-Thin.ttf');
+}

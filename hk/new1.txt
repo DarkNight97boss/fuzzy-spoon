@@ -1,0 +1,13 @@
+
+badge_name_wkdb783e=Test
+badge_desc_wkdb783e=Test by Giovanni
+badge_name_ksjh87r3=dkjshd
+badge_desc_ksjh87r3=ksjfhkjdh
+badge_name_ksjh87r3=dfdbf
+badge_desc_ksjh87r3=kjbskhf
+badge_name_ksjh87r3we32=dfdbf
+badge_desc_ksjh87r3we32=kjbskhf
+badge_name_sofij38r3=fdkjef38
+badge_desc_sofij38r3=sfkjb37r
+badge_name_HS1=test
+badge_desc_HS1=Test by Giovanni
